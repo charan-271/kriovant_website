@@ -3138,17 +3138,6 @@ input::-moz-focus-inner {
     margin-bottom: 0;
 }
 
-/* Default - Light Mode */
-#favicon-32x32 {
-    filter: invert(0);
-}
-
-/* Dark Mode */
-@media (prefers-color-scheme: dark) {
-    #favicon-32x32 {
-        filter: invert(1);
-    }
-}
 
 
 
